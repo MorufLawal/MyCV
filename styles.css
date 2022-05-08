@@ -1,0 +1,100 @@
+
+/*Tag Selector*/
+body{
+ text-align:center;
+ font-family:'Merriweather', serif;
+ position: relative;
+ @media (max-width: 62em){
+  display:block;
+ }
+ }
+h1{
+ font-family: 'Sacramento', cursive;
+ font-size: 6.5rem;
+ color:#66BFBF ;
+ }
+h2{
+ color:#66BFBF;
+ }
+h3{
+ color:#11999E;
+}
+hr{
+ border: none;
+ border-top: 10px dotted #EAF6F6;
+ width: 100px;
+ margin: 50px auto;
+ 
+ 
+}
+span{
+ text-decoration: underline;
+}
+footer{
+ background-color: #66BFBF;
+ height: 80px;
+ padding: 100px;
+}
+a{
+ color: #11999E;
+ padding: 30px;
+}
+a:hover{
+ color: white;
+}
+button{
+ margin:60px auto ;
+ background-color: #11999E;
+ border-radius: 10px;
+ width: 150px;
+ height: 50px;
+ color: white;
+}
+/* Class/ID Selector */
+.first-intro {
+ background-color: #EAF6F6;
+ height: 800px;
+ padding: 100px;
+ position: relative;
+ line-height: 2
+ ;
+}
+#topright-cloud{
+ position: absolute;
+ right: 500px;
+}
+#bottomleft-cloud{
+ position: absolute;
+ left: 500px;
+}
+#mountain{
+ width: 45%;
+}
+.skill-set{
+ width: 45%;
+ margin: 100px auto;
+ text-align: left;
+ line-height: 2;
+}
+.skill-list{
+ margin-top: 100px;
+}
+.howtoreachme{
+ line-height: 2;
+}
+.ariyo-img{
+ width: 20%;
+ margin-top: 50px;
+}
+.fx-img{
+ width: 20%;
+ float: left;
+ margin-right: 20px;
+
+ 
+}
+.web-img{
+ width: 20%;
+ float: right;
+ margin-left: 20px;
+}
